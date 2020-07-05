@@ -1,0 +1,23 @@
+KLOCKS v1.0 Win32 Commandline Lock Keys Controller for NT4/W2K/XP.
+(C) Copyright 2001-2002 Ritchie Lawrence, http://www.commandline.co.uk.
+
+  KLOCKS [+key | -key | !key] [...]
+
+  +    Turns the specified key on.
+  -    Turns the specified key off.
+  !    Toggles the specified key.
+  key  Key to be controlled. [N]um, [C]aps or [S]croll.
+  ...  Additional keys to control.
+
+  If no options are specified, the current status of the Num, Caps and Scroll
+  lock keys is displayed, where 0 = off and 1 = On.
+
+  Example usage:-
+
+  1) KLOCKS +n
+  2) KLOCKS !num !caps
+  3) KLOCKS +scroll -num -c
+
+  1) Turns on Num lock.
+  2) Toggles Num and Caps lock.
+  3) Turns on Scroll lock and turns off Num and Caps lock
